@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { EssamKonafaComponent } from './components/essam-konafa/essam-konafa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EssamKonafaComponent
   ],
   imports: [
     BrowserModule
